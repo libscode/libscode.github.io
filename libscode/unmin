@@ -1,0 +1,14 @@
+chmod 644 file
+
+DateTimePicker.css
+DateTimePicker.js
+bundle.css
+bundle.js
+dropzone.css
+dropzone.js
+except.css
+initDTP.js
+smooth-scroll.js
+typeahead.js
+lightbox/css/lightbox.css
+bxslider/bxslider.css
