@@ -1,5 +1,0 @@
-#!/bin/bash
-git add .
-read -p "Masukan pesan komit: " COMMIT
-DESCRIPTION="$(git status)"
-git commit -m "Project push ${COMMIT}" -m "${DESCRIPTION}"
