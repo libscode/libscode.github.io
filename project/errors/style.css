@@ -32,3 +32,6 @@ p {
     font-size: 14px;
     line-height: 14px;
 }
+hr {
+    border-color: #fff;
+}
