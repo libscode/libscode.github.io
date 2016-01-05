@@ -8,21 +8,26 @@ body {
     text-align: center;
 }
 h1 {
-    position:relative;
-    letter-spacing: -1px;
-    line-height: 60px;
-    font-size: 60px;
+    position: relative;
+    line-height: 35px;
+    font-size: 35px;
     font-weight: 100;
     margin: 0px 0 50px 0;
     text-shadow: 0 1px 0 #fff;
     text-align: center;
 }
+.message {
+    width: 65%;
+    margin: 0 auto;
+    text-align: left;
+}
+.heading {
+    font-size: large;
+    text-align: center;
+}
 p {
     color: rgba(0, 0, 0, 0.5);
     margin: 20px 0;
-    line-height: 1.6;
-    text-align: center;
-}
-p strong {
-    font-size: x-large;
+    font-size: 14px;
+    line-height: 14px;
 }
