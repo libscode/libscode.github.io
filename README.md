@@ -2,7 +2,7 @@
 
 The development resource project based on information technology.
 
-This is Content Delivery Network for LibsCode in domain here https://cloud.libscode.com/
+This is Content Delivery Network for LibsCode in domain here https://cloud.libscode.com
 
 ## CONTRIBUTING
 
