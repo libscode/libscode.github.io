@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/images/logo.png" alt="Cloud LibsCode">
+  <img src="assets/images/logo.png" alt="LibsCode Cloud">
 </p>
 
-# LibsCode
+# LibsCode Cloud
 
 The development resource project based on information technology.
 

@@ -9,9 +9,9 @@ html, body {
 body {
   overflow: hidden;
   background-color: #f68734;
-  background-image: -webkit-linear-gradient(#f68734, #f6964f);
-  background-image: -o-linear-gradient(#f68734, #f6964f);
-  background-image: linear-gradient(#f68734, #f6964f);
+  background-image: -webkit-linear-gradient(#f68734, #F68E3E);
+  background-image: -o-linear-gradient(#f68734, #F68E3E);
+  background-image: linear-gradient(#f68734, #F68E3E);
 }
 
 #wrap {
@@ -31,6 +31,16 @@ body {
   z-index: 10;
   position: absolute;
   transition: all 0.1s ease;
+}
+
+.cloud-emot {
+  top: 50%;
+  right: 50%;
+  z-index: 8;
+  width: 604px;
+  height: 134px;
+  position: absolute;
+  margin: 115px -335px 0 0;
 }
 
 ::-moz-selection {
