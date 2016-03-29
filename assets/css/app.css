@@ -7,8 +7,11 @@ html, body {
 }
 
 body {
-  background-color: #f68734;
   overflow: hidden;
+  background-color: #f68734;
+  background-image: -webkit-linear-gradient(#f68734, #f6964f);
+  background-image: -o-linear-gradient(#f68734, #f6964f);
+  background-image: linear-gradient(#f68734, #f6964f);
 }
 
 #wrap {
@@ -18,8 +21,8 @@ body {
   min-height: 620px;
   position: relative;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .cloud-libscode {
@@ -30,11 +33,9 @@ body {
 }
 
 ::-moz-selection {
-  color: #fff;
-  background: rgba(246, 135, 52, 0.65);
+  background: rgba(37, 37, 37, 0.45);
 }
 
 ::selection {
-  color: #fff;
-  background: rgba(246, 135, 52, 0.65);
+  background: rgba(37, 37, 37, 0.45);
 }
