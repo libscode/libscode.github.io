@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #f68734;
+  overflow: hidden;
+}
+
+#wrap {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  min-height: 620px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cloud-libscode {
+  top: 100px;
+  left: 290px;
+  z-index: 10;
+  position: absolute;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: rgba(246, 135, 52, 0.65);
+}
+
+::selection {
+  color: #fff;
+  background: rgba(246, 135, 52, 0.65);
+}
