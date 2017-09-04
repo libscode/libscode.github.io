@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo.png" alt="LibsCode Cloud">
+  <img src="assets-cloud/images/logo.png" alt="LibsCode Cloud">
 </p>
 
 # LibsCode Cloud
