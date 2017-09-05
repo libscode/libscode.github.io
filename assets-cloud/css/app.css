@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   min-height: 100%;
   position: relative;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -14,11 +17,11 @@ body {
   background-image: linear-gradient(#f68734, #F68E3E);
 }
 
-#wrap {
-  width: 1000px;
+.container {
+  width: 100vw;
   display: flex;
   margin: 0 auto;
-  min-height: 620px;
+  height: 100vh;
   position: relative;
   align-items: center;
   flex-direction: column;
@@ -26,21 +29,26 @@ body {
 }
 
 .cloud-libscode {
-  top: 100px;
-  left: 290px;
   z-index: 10;
   position: absolute;
   transition: all 0.1s ease;
 }
 
-.cloud-emot {
-  top: 50%;
-  right: 50%;
-  z-index: 8;
-  width: 604px;
-  height: 134px;
+.cloud-caption {
+  top: 3vh;
   position: absolute;
-  margin: 115px -335px 0 0;
+}
+
+.cloud-caption h1 {
+  font-size: 5em;
+  color: #2e2e2c;
+  font-weight: 700;
+}
+
+@media only screen and (max-width : 600px) {
+  .cloud-caption h1 {
+    font-size: 3em;
+  }
 }
 
 ::-moz-selection {
