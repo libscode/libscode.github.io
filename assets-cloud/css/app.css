@@ -30,7 +30,6 @@ body {
 
 .cloud-libscode {
   z-index: 10;
-  position: absolute;
   transition: all 0.1s ease;
 }
 
